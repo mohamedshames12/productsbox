@@ -15,7 +15,7 @@
     .header .navbar{
         position: absolute;
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-        background-color: #fff;
+        background-color: #25a18e;
         width: 100%;
         top: 0%; right: 0; left: 0;
         z-index: 10000;
@@ -35,13 +35,14 @@
 
     .header .navbar .links a{
         display: flex;
-        margin:5rem  1rem;
+        margin:4rem  1rem;
         align-items: center;
         text-align: center;
         justify-content: center;
         padding: .5rem;
         border-radius: 5px;
-       border: 1px solid #ccc;
+       border: 1px solid #fff;
+       color: #fff;
     }
 
     #menu{
@@ -53,7 +54,7 @@
         position: absolute;
         top: 1rem;
        right: 1rem;
-       color: black;
+       color: #fff;
        font-size: 1.5rem;
        z-index: 100000;
     }
@@ -109,4 +110,10 @@
         align-items: center;
         justify-content: center;
     }
+
+    
+/* heading */
+.heading{
+    font-size: 1.2rem;
+}
 }

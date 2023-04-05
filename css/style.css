@@ -252,6 +252,7 @@ section{
 .products .container .box .contact .name {
     color: #0e5068;
     font-size: 1rem;
+    margin-bottom: .5rem;
 }
 
 .products .container .box .contact .price{
@@ -284,4 +285,33 @@ section{
 
 .products .container .box .btns .add-to-cart:hover {
     background: #e3a33c;
+}
+
+
+.category .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 150px);
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.category .container .box{
+    width: 100%;
+    border: 1px solid #000;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+}
+
+
+.category .container .box img {
+    width: 100%;
+    margin: auto;
+}
+
+.category .container .box p {
+    font-size: .8rem;
+    text-align: center;
+    margin-top: 1rem;
 }
