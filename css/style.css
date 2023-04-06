@@ -9,6 +9,19 @@
     text-decoration: none;
     transition: all .2s linear;
 }
+/* scroll */
+
+::-webkit-scrollbar{
+    width: .3rem;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #0e5068;
+}
+
+::-webkit-scrollbar-track{
+    background: #fff;
+}
 
 /* heading */
 .heading{
@@ -38,7 +51,7 @@
 }
 
 .btn:hover{
-    background-color: #0e5068;
+    background-color: #e3a33c;
 }
 
 /* header */
@@ -98,7 +111,7 @@
 }
 
 .header .navbar a:hover{
-    color: #227c9d;
+    color: #e3a33c;
     font-weight: 800;
 }
 
@@ -314,4 +327,118 @@ section{
     font-size: .8rem;
     text-align: center;
     margin-top: 1rem;
+}
+
+/* subscribe */
+
+.subscribe .container-sub{
+    margin: 2rem;
+    align-items: center;
+}
+
+.subscribe .container-sub form input{
+    border: 1px solid #ccc;
+    height: 35px;
+    width: calc(100% - 50%);
+    border-radius: 5px 0px 0 5px;
+    padding: 0 1rem;
+    overflow: hidden;
+}
+
+.subscribe .container-sub form input:focus{
+    border: 1px solid #000;
+}
+
+.subscribe .container-sub form button{
+    width: 100px;
+    height: 35px;
+    background-color: #ffcb77;
+    color: #fff;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+    transform: translate(-5%, 0%);
+}
+
+.subscribe .container-sub form button:hover{
+    background-color: #e3a33c;
+}
+
+/* footer */
+
+
+.footer{
+    background: #227c9d;
+    padding: 2rem;
+    color: #fff;
+}
+
+.footer-box{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-box .icons {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.footer-box .icons a {
+    margin-right: 1rem;
+    color: #fff;
+    font-size: 26px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: .5rem .8rem;
+}
+
+.footer-box .icons a:hover{
+    color: #e3a33c;
+    /* border: 1px solid #e3a33c; */
+    background: #fff;
+}
+
+.social{
+    color: #fff;
+}
+
+.footer-box .container{
+    gap: 5rem;
+}
+
+.footer-box .container .box {
+    height: 250px;
+}
+
+.footer-box .container .box h1 {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.footer-box .container .box a {
+    display: flex;
+    text-align: center;
+    color: #1d2d44;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: .5rem;
+    font-weight: 800;
+}
+
+.footer-box .container .box a:hover{
+    color: #fe6d73;
+}
+
+.copy{
+    text-align: center;
+    padding: .5rem;
+    text-align: center;
+}
+
+.copy span {
+    color: #fe6d73;
 }

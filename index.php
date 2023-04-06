@@ -315,6 +315,17 @@
     </section>
 
 
+    <section class="subscribe">
+        <h1 class="heading">subscribe us</h1>
+        <div class="container-sub">
+            <form method="">
+                <input type="text" placeholder="enter your email">
+                <button type="submit">subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <?php include 'footer.php'?>
     <!-- file js menu and scroll -->
     <script src="js/script.js"></script>
     <!-- file js products home -->

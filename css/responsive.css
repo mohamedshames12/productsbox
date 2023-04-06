@@ -112,8 +112,36 @@
     }
 
     
-/* heading */
-.heading{
-    font-size: 1.2rem;
-}
+    /* heading */
+    .heading{
+        font-size: 1.2rem;
+    }
+
+    /* subscribe */
+
+    .subscribe .container-sub form input{
+        border: 1px solid #ccc;
+        height: 35px;
+        width: calc(100% - 33.5%);
+        border-radius: 5px 0px 0 5px;
+        padding: 0 .5rem;
+        overflow: hidden;
+    }
+
+    /* icons footer */
+
+    .footer-box .icons {
+        margin: 2rem 0;
+    }
+
+    .footer-box .icons a {
+        font-size: 20px;
+        padding: .3rem .6rem;
+        margin: 0rem .2rem;
+    }
+
+    .copy{
+        font-size: .7rem;
+    }
+    
 }
