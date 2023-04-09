@@ -143,5 +143,12 @@
     .copy{
         font-size: .7rem;
     }
+
+    /* login && register */
+
+    form {
+        width: 97%;;
+    }
+
     
 }
