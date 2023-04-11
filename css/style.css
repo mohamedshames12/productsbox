@@ -115,6 +115,10 @@
     font-weight: 800;
 }
 
+.header .icons{
+    display: flex;
+}
+
 .header .icons i{
     margin-left: 1rem;
     font-weight: 600;
@@ -441,4 +445,76 @@ section{
 
 .copy span {
     color: #fe6d73;
+}
+
+/* user logdin */
+
+.logdin-user{
+    position: absolute;
+    width: 25%;
+    min-height: 50vh;
+    left: 600px;
+    top: 181px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #eee;
+    z-index: 100000;
+    border: 1px solid #000;
+    border-radius: 5px;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    transition: all 0.5s linear;
+}
+
+.logdin-user.active{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+
+.logdin-user p {
+    color: #1d2d44;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.logdin-user span {
+    color: #fe6d73;
+    font-weight: 700;
+}
+
+.logdin-user a,
+.logdin-user .updata {
+    background: #d53b40;
+    width: 180px;
+    height: 35px;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.logdin-user a:hover{
+    background-color: #e10007;
+}
+
+.logdin-user .updata {
+    margin-bottom: .5rem;
+    background-color: #d9898b;
+}
+
+.logdin-user .updata:hover{
+    background-color: #e3a33c;
+}
+
+#close-user{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+#close-user:hover{
+    color: #d53b40;
 }

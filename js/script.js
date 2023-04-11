@@ -23,6 +23,22 @@ const scrollHeader = () =>{
 window.addEventListener('scroll', scrollHeader);
 
 
+// when user on cklick icon user
+
+const user = document.querySelector("#user");
+const logdinUser = document.querySelector(".logdin-user");
+const closeUser = document.querySelector("#close-user")
+user.addEventListener('click',(eo) => {
+    logdinUser.classList.add("active");
+})
+
+closeUser.addEventListener('click',(eo) => {
+    logdinUser.classList.remove("active");
+})
+
+
+
+
 
 // const options = {
 // 	method: 'GET',
