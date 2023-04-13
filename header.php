@@ -3,8 +3,8 @@
     <div class="animation"></div>
     <nav class="navbar">
         <div class="links">
-            <a href="Home">home</a>
-            <a href="Home">Products</a>
+            <a href="index.php">home</a>
+            <a href="components/products.php">Products</a>
             <a href="Home">New Products</a>
             <a href="Home">contact us</a>
             <a href="Home">Featured</a>

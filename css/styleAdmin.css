@@ -1,0 +1,92 @@
+.dashboard{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.dashboard .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 300px);
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.dashboard .container .box {
+    border: 1px solid #ccc;
+    margin: 15rem 0 ;
+}
+
+/* add products */
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container form {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    background: #eee;
+}
+
+.container form h2 {
+    text-align: center;
+    color: #227c9d;
+    margin-bottom: .5rem;
+}
+
+.container form label {
+    margin-bottom: .2rem;
+}
+
+.container form input {
+    margin-bottom: .5rem;
+    height: 35px;
+    border-radius: 5px;
+    padding-left: .5rem;
+}
+
+.container form textarea {
+    height: 110px;
+    border-radius: 5px;
+    width: 100%;
+    padding: .5rem;
+    resize: none;
+}
+
+.container form .image {
+    background-color: #fff;
+    padding: .5rem;
+}
+
+.container form .btn_add {
+    display: flex;
+    margin: auto;
+    background: #227c9d;
+    border-radius: 5px;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.container form .btn_add:hover{
+    background-color: #164d61;
+}
+
+.container form select{
+    margin: .3rem 0;
+    padding: .5rem;
+    border-radius: 5px;
+}
+
+

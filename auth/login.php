@@ -30,7 +30,7 @@
                     $success_msg[] = "Your email or password is correct!";
                 }elseif($fetch['user_type'] == 'admin'){
                     $_SESSION["admin_id"] = $fetch['id'];
-                    header('location: ../admin/admin.php');
+                    header('location: ../admin/dashbord.php');
                 }
             }else{
                 $warning_msg[] = "your email or password is incorrect!";

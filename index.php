@@ -78,132 +78,6 @@
             </div>
         </div>
     </section>
-    
-
-    <section class="products">
-        <h1 class="heading">products</h1>
-        <div class="container">
-            <div class="box">
-                <div class="image">
-                    <img src="images/c-d-x-PDX_a_82obo-unsplash.jpg" alt="">
-                </div>
-                <div class="contact">
-                    <h1 class="name">Bluetooth Headset</h1>
-                    <p class="price">$300</p>
-                </div>
-                <div class="btns">
-                    <button class="details"> <a href="details/details.php">show details</a></button>
-                    <button class="add-to-cart" type="submit"><i class="fas fa-shopping-cart"></i> add to cart</button>
-                </div>
-            </div>
-            <div class="box">
-                <div class="image">
-                    <img src="images/chris-taljaard-S__3xvlGDe8-unsplash.jpg" alt="">
-                </div>
-                <div class="contact">
-                    <h1 class="name">PlayStation DualSense Wireless Controller</h1>
-                    <p class="price">$109</p>
-                </div>
-                <div class="btns">
-                    <button class="details"> <a href="details/details.php">show details</a></button>
-                    <button class="add-to-cart" type="submit"><i class="fas fa-shopping-cart"></i> add to cart</button>
-                </div>
-            </div>
-            <div class="box">
-                <div class="image">
-                    <img src="images/christian-wiediger-KV2vFOYItcY-unsplash.jpg" alt="">
-                </div>
-                <div class="contact">
-                    <h1 class="name">STGAubron Gaming PC Diamond Black</h1>
-                    <p class="price">$700</p>
-                </div>
-                <div class="btns">
-                    <button class="details"> <a href="details/details.php">show details</a></button>
-                    <button class="add-to-cart" type="submit"><i class="fas fa-shopping-cart"></i> add to cart</button>
-                </div>
-            </div>
-            <div class="box">
-                <div class="image">
-                    <img src="images/clayton-malquist-KVCN2hMTk1E-unsplash.jpg" alt="">
-                </div>
-                <div class="contact">
-                    <h1 class="name">Lenovo Ideapad 15.6' HD Laptop</h1>
-                    <p class="price">$450</p>
-                </div>
-                <div class="btns">
-                    <button class="details"> <a href="details/details.php">show details</a></button>
-                    <button class="add-to-cart" type="submit"><i class="fas fa-shopping-cart"></i> add to cart</button>
-                </div>
-            </div>
-            <div class="box">
-                <div class="image">
-                    <img src="images/kenny-eliason-Pvx24X1uiq4-unsplash.jpg" alt="">
-                </div>
-                <div class="contact">
-                    <h1 class="name">Apple iPhone 14 Pro Max</h1>
-                    <p class="price">$6410</p>
-                </div>
-                <div class="btns">
-                    <button class="details"> <a href="details/details.php">show details</a></button>
-                    <button class="add-to-cart" type="submit"><i class="fas fa-shopping-cart"></i> add to cart</button>
-                </div>
-            </div>
-            <div class="box">
-                <div class="image">
-                    <img src="images/frankie-VghbBAYqUJ0-unsplash.jpg" alt="">
-                </div>
-                <div class="contact">
-                    <h1 class="name">memzuoix 2.4G Wireless Mouse</h1>
-                    <p class="price">$3750</p>
-                </div>
-                <div class="btns">
-                    <button class="details"> <a href="details/details.php">show details</a></button>
-                    <button class="add-to-cart" type="submit"><i class="fas fa-shopping-cart"></i> add to cart</button>
-                </div>
-            </div>
-            <div class="box">
-                <div class="image">
-                    <img src="images/onur-binay-8OQt1zTnJeE-unsplash.jpg" alt="">
-                </div>
-                <div class="contact">
-                    <h1 class="name">Mens Watches Ultra</h1>
-                    <p class="price">$1150</p>
-                </div>
-                <div class="btns">
-                    <button class="details"> <a href="details/details.php">show details</a></button>
-                    <button class="add-to-cart" type="submit"><i class="fas fa-shopping-cart"></i> add to cart</button>
-                </div>
-            </div>
-            <div class="box">
-                <div class="image">
-                    <img src="images/sebastian-banasiewcz-CMs6ZGOdyho-unsplash.jpg" alt="">
-                </div>
-                <div class="contact">
-                    <h1 class="name">Computer Keyboard Wired</h1>
-                    <p class="price">$959</p>
-                </div>
-                <div class="btns">
-                    <button class="details"> <a href="details/details.php">show details</a></button>
-                    <button class="add-to-cart" type="submit"><i class="fas fa-shopping-cart"></i> add to cart</button>
-                </div>
-            </div>
-            <div class="box">
-                <div class="image">
-                    <img src="images/ryan-hoffman-6Nub980bI3I-unsplash.jpg" alt="">
-                </div>
-                <div class="contact">
-                    <h1 class="name">T-Shirt</h1>
-                    <p class="price">$50</p>
-                </div>
-                <div class="btns">
-                    <button class="details"> <a href="details/details.php">show details</a></button>
-                    <button class="add-to-cart" type="submit"><i class="fas fa-shopping-cart"></i> add to cart</button>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
 
     <section class="category">
         <h1 class="heading">shop by category</h1>
@@ -241,93 +115,60 @@
         </div>
     </section>
 
+    
 
-
-   
     <section class="products">
-    <h1 class="heading">Beauty and Personal Care</h1>
+        <h1 class="heading">products</h1>
         <div class="container">
-            <div class="box">
-                <div class="image">
-                    <img src="images/maksim-larin-NOpsC3nWTzY-unsplash.jpg" alt="">
-                </div>
-                <div class="contact">
-                    <h1 class="name">Ryka Women's Plus 2 Walking Shoe</h1>
-                    <p class="price">$120</p>
-                </div>
-                <div class="btns">
-                    <button class="details"> <a href="details/details.php">show details</a></button>
-                    <button class="add-to-cart" type="submit"><i class="fas fa-shopping-cart"></i> add to cart</button>
-                </div>
-            </div>
-            <div class="box">
-                <div class="image">
-                    <img src="images/qasim-malick-Yh9FrbN5Bts-unsplash.jpg" alt="">
-                </div>
-                <div class="contact">
-                    <h1 class="name">Desigual Women's Woman Sweat Long</h1>
-                    <p class="price">$119</p>
-                </div>
-                <div class="btns">
-                    <button class="details"> <a href="details/details.php">show details</a></button>
-                    <button class="add-to-cart" type="submit"><i class="fas fa-shopping-cart"></i> add to cart</button>
-                </div>
-            </div>
-            <div class="box">
-                <div class="image">
-                    <img src="images/raquel-gambin-kS3YkVtf85U-unsplash.jpg" alt="">
-                </div>
-                <div class="contact">
-                    <h1 class="name">Ryka Women's, Echo Knit Slip-On Sneaker</h1>
-                    <p class="price">$260</p>
-                </div>
-                <div class="btns">
-                    <button class="details"> <a href="details/details.php">show details</a></button>
-                    <button class="add-to-cart" type="submit"><i class="fas fa-shopping-cart"></i> add to cart</button>
-                </div>
-            </div>
-            <div class="box">
-                <div class="image">
-                    <img src="images/ryan-plomp-jvoZ-Aux9aw-unsplash.jpg" alt="">
-                </div>
-                <div class="contact">
-                    <h1 class="name">MYSMOCK Professional Smock</h1>
-                    <p class="price">$199</p>
-                </div>
-                <div class="btns">
-                    <button class="details"> <a href="details/details.php">show details</a></button>
-                    <button class="add-to-cart" type="submit"><i class="fas fa-shopping-cart"></i> add to cart</button>
-                </div>
-            </div>
-            <div class="box">
-                <div class="image">
-                    <img src="images/dusabimana-aimable-pSb2jm6C9E0-unsplash.jpg" alt="">
-                </div>
-                <div class="contact">
-                    <h1 class="name">Salon Cape for Women</h1>
-                    <p class="price">$450</p>
-                </div>
-                <div class="btns">
-                    <button class="details"> <a href="details/details.php">show details</a></button>
-                    <button class="add-to-cart" type="submit"><i class="fas fa-shopping-cart"></i> add to cart</button>
-                </div>
-            </div>
-            <div class="box">
-                <div class="image">
-                    <img src="images/joanna-kosinska-mVdzV_HTyH4-unsplash.jpg" alt="">
-                </div>
-                <div class="contact">
-                    <h1 class="name">Maybelline Lash Sensational Sky High</h1>
-                    <p class="price">$3750</p>
-                </div>
-                <div class="btns">
-                    <button class="details"> <a href="details/details.php">show details</a></button>
-                    <button class="add-to-cart" type="submit"><i class="fas fa-shopping-cart"></i> add to cart</button>
-                </div>
-            </div>
 
+        <?php
+            $select_product = $conn->prepare("SELECT * FROM products ");
+            $select_product->execute();
+            if($select_product->rowCount() > 0) {
+                while($fetch_products = $select_product->fetch(PDO::FETCH_ASSOC)) {
+        ?>
+
+        <form action="#" method="post">
+        <input type="hidden" name="pid" value="<?= $fetch_products['id']?>">
+            <input type="hidden" name="name" value="<?= $fetch_products['name']?>">
+            <input type="hidden" name="price" value="<?= $fetch_products['price']?>">
+            <input type="hidden" name="description" value="<?= $fetch_products['description']?>">
+            <input type="hidden" name="image" value="<?= $fetch_products['image']?>">
+            <input type="hidden" name="category" value="<?= $fetch_products['category']?>">
+            <div class="box">
+                <div class="image">
+                    <img src="admin/upload/<?= $fetch_products['image']?>" alt="">
+                </div>
+                <div class="contact">
+                    <h1 class="name"><?= $fetch_products['name']?></h1>
+                    <p class="price">$<?= $fetch_products['price']?></p>
+                    <a href="details/category.php?category=<?= $fetch_products['category']?>" class="categoryLink"><?= $fetch_products['category']?></a>
+                </div>
+                <div class="btns">
+                    <input type="number" min="1" max="10" class="qty" name="qty" required>
+                    <button class="add-to-cart" type="submit"><i class="fas fa-shopping-cart"></i> add to cart</button>
+                </div>
+            </div>
+        </form>
+
+
+        <?php
+                }
+            }else {
+                echo "<p class='empty'>no products added yet!</p>";
+            }
+        
+        ?>
+      
         </div>
+        <a href="components/products.php" class="ALL_PRODUCTS">All Products</a>
     </section>
+
+
+
+
+
+
 
 
     <section class="subscribe">

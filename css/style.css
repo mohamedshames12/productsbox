@@ -62,7 +62,7 @@
     justify-content: space-between;
     padding: 1rem 12%;
     position: fixed;
-    right: 0;left: 0;
+    right: 0;left: 0; top: 0;
     z-index: 1000;
 }
 
@@ -278,6 +278,23 @@ section{
     font-weight: 700;
 }
 
+.products .container .box .contact a {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 1rem 0;
+    color: #fe6d73;
+    font-weight: 800;
+}
+
+.all_products {
+    margin-top: 7rem;
+}
+
+.products .container .box .btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 .products .container .box .btns button{
     background-color: #ffcb77;
@@ -304,6 +321,17 @@ section{
     background: #e3a33c;
 }
 
+.products .container .box .btns .qty {
+    border: 1px solid #ccc;
+    height: 30px;
+    width: 60px;
+    border-radius: 5px;
+    padding: 0.3rem;
+}
+
+.products .container .box .btns .qty:focus{
+    border: 1px solid #1d2d44;
+}
 
 .category .container {
     display: grid;
@@ -332,6 +360,25 @@ section{
     text-align: center;
     margin-top: 1rem;
 }
+
+
+.ALL_PRODUCTS{
+    display: flex;
+    margin: auto;
+    width: 140px;
+    height: 35px;
+    background: #227c9d;
+    color: #fff;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.ALL_PRODUCTS:hover{
+    background: #1d2d44;
+}
+
 
 /* subscribe */
 
