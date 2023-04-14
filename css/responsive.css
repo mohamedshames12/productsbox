@@ -159,5 +159,22 @@
         left: 0; right: 0; top: 0;bottom: 0;
      
     }
+
+    .container-contact {
+        margin-top: 5rem;
+        display: block;
+    }
+
+    .container-contact .box form{
+        width: 95%;
+    }
+    
+
+    .container-contact .image img {
+        height: 23rem;
+        display: flex;
+        margin: auto;
+    }
+    
     
 }

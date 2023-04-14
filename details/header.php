@@ -4,10 +4,10 @@
     <nav class="navbar">
         <div class="links">
             <a href="../index.php">home</a>
-            <a href="#">Products</a>
-            <a href="#">New Products</a>
-            <a href="#">contact us</a>
-            <a href="#">Featured</a>
+            <a href="../components/products.php">Products</a>
+            <a href="../components/new_products.php">New Products</a>
+            <a href="../components/featured.php">Featured</a>
+            <a href="../components/contact_us.php">contact us</a>
         </div>
     </nav>
     <i class="fa-solid fa-xmark" id="close-menu"></i>
@@ -29,7 +29,11 @@
                     <?php
                 }else{
                     ?>
-
+                    <div class="logdin-user">
+                            <p>please login first</span></p>
+                            <a href="../auth/register.php">register</a>
+                            <i class="fa-solid fa-xmark" id="close-user"></i>
+                    </div>
                     <?php
                 }
            ?>

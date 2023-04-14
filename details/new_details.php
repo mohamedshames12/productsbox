@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="../css/responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   
-    <title>Details Product</title>
+    <title>Details Now Product</title>
 </head>
 <body>
     <?php include 'header.php';?>
@@ -34,9 +34,9 @@
         <div class="container all_products">
 
         <?php
-            $pid = $_GET['pid'];
-            $select_product = $conn->prepare("SELECT * FROM products  WHERE id = ?");
-            $select_product->execute([$pid]);
+            $details = $_GET['details'];
+            $select_product = $conn->prepare("SELECT * FROM  new_prodacts  WHERE id = ?");
+            $select_product->execute([$details]);
             if($select_product->rowCount() > 0) {
                 while($fetch_products = $select_product->fetch(PDO::FETCH_ASSOC)) {
         ?>
@@ -47,8 +47,8 @@
             <input type="hidden" name="price" value="<?= $fetch_products['price']?>">
             <input type="hidden" name="description" value="<?= $fetch_products['description']?>">
             <input type="hidden" name="image" value="<?= $fetch_products['image']?>">
-            <input type="hidden" name="category" value="<?= $fetch_products['category']?>">
             <div class="box">
+            <p class="new">New</p>
                 <div class="image">
                     <img src="../admin/upload/<?= $fetch_products['image']?>" alt="">
                 </div>

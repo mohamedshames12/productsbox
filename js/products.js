@@ -18,3 +18,4 @@
 //     `;
 //     sectionProducts.innerHTML += products;
 // });
+

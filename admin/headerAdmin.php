@@ -5,7 +5,8 @@
         <div class="links">
             <a href="dashbord.php">Dashboard</a>
             <a href="Add_Products_admin.php">Add Products</a>
-            <a href="Home">Add New Products</a>
+            <a href="Add_new_products_Admin.php">Add New Products</a>
+            <a href="featuredAdmin.php">Add Featured</a>
             <a href="Home">Message</a>
         </div>
     </nav>

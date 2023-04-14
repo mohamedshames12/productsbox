@@ -252,6 +252,8 @@ section{
     border: 1px solid #000;
     border-radius: 5px;
     margin-bottom: 2rem;
+    position: relative;
+
 }
 
 .products .container .box .image img {
@@ -564,4 +566,106 @@ section{
 
 #close-user:hover{
     color: #d53b40;
+}
+
+/* new */
+
+.new{
+    position: absolute;
+    background: #d53b40;
+    color: #fff;
+    padding: 0.2rem 1.2rem;
+    top: -.5rem;
+    left: -.5rem;
+    border-radius: 5px;
+}
+
+/* link details */
+
+.container-contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+
+.container-contact .box{
+    display: flex;
+    flex: 1;
+}
+
+.container-contact .box form {
+    width: 450px;
+    margin: auto;
+    border: 1px solid ;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    border-radius: 5px;
+    background-color: #eee;
+}
+
+.container-contact .box form h1 {
+    text-align: center;
+    color: #1d2d44;
+    margin-bottom: .5rem;
+}
+
+.container-contact .box form label {
+    margin-bottom: .2rem;
+}
+
+
+.container-contact .box form input {
+    margin-bottom: .5rem;
+    height: 35px;border-radius: 5px;
+    padding: 0 .5rem;
+}
+
+.container-contact .image{
+    flex: 1;
+}
+
+
+.container-contact .image img {
+    height: 35rem;
+}
+
+.container-contact form textarea {
+    resize: none;
+    height: 100px;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+
+.container-contact form .btn {
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* show-details */
+
+.show-details{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: .3rem 0;
+    font-size: .8rem;
+    color: #ccc;
+    font-weight: 800;
+}
+
+/* empty */
+
+.empty{
+    text-align: center;
+    margin: 2rem 0;
+    border-radius: 5px;
+    border: 1px solid #000;
+    padding: 0.3rem;
+    background-color: #eee;
+    text-transform: capitalize;
 }
